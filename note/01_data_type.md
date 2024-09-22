@@ -1,6 +1,6 @@
  # 数据类型精度 
 
-![1726974582151](picture/data_type_01.png)
+![1726974582151](../picture/data_type_01.png)
 
 
 
@@ -19,7 +19,7 @@ INSERT INTO test_serial(flag) VALUES ('a');
 
  如下图可以看到id字段的默认值会取test_serial_id_seq’序列的最新值 
 
-![1726974582151](picture/data_type_02.png)
+![1726974582151](../picture/data_type_02.png)
 
 
 
