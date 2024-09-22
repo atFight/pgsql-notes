@@ -12,7 +12,7 @@ pgsql的体系结构分为以下5大部分：
 
 ###  逻辑存储结构 
 
-![1726974582151](picture\architecture_02.png)
+![1726974582151](picture/architecture_02.png)
 
 **跨数据库集群访问**
 
@@ -26,7 +26,7 @@ insert into pgostgres2."public".test2 (id) VALUES (1)
 
 **同一数据库集群下不同数据库相互访问**
 
-![1726974582151](picture\architecture_03.png)
+![1726974582151](picture/architecture_03.png)
 
 
 
@@ -34,19 +34,19 @@ insert into pgostgres2."public".test2 (id) VALUES (1)
 
 数据文件默认存储路径：postgres/14/data/base/
 
-![1726974582151](picture\architecture_04.png)
+![1726974582151](picture/architecture_04.png)
 
  **OID：（数据库）对象标识符** 
 
  **表空间：** 
 
-![1726974582151](picture\architecture_05.png)
+![1726974582151](picture/architecture_05.png)
 
 
 
 ## 进程结构
 
-![1726974582151](picture\architecture_06.png)
+![1726974582151](picture/architecture_06.png)
 
 | 辅助进程                 | 作用                                                         |
 | ------------------------ | ------------------------------------------------------------ |
@@ -62,4 +62,4 @@ insert into pgostgres2."public".test2 (id) VALUES (1)
 
 ##  内存结构 
 
-![1726974582151](picture\architecture_07.png)
+![1726974582151](picture/architecture_07.png)
