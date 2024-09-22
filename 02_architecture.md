@@ -4,7 +4,7 @@ pgsql的体系结构分为以下5大部分：
 
 **系统控制器、查询分析器、事务系统、恢复系统、文件系统**
 
-![1726974582151](picture\architecture_01.png)
+![1726974582151](picture/architecture_01.png)
 
 
 
