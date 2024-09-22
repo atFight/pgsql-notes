@@ -8,7 +8,7 @@
 
  这些指⾃增serial类型，严格意义上不能称之为⼀种数据类型 
 
-```
+```sql
 -- 创建一个测试表
 CREATE TABLE test_serial (id serial,flag text);
 -- 此时会自动给test_serial的id字段创建一个自增序列，并将id的默认值设置为nextval('xxx_seq')
