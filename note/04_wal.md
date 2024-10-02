@@ -75,3 +75,11 @@
 3. 达到检查点配置时间(checkpoint_timeout)
 4. max_wal_size已满
 5. 数据库正常shutdown
+
+
+
+*Reference link*
+
+*https://blog.csdn.net/lusklusklusk/article/details/123603833*
+
+*https://zhmin.github.io/posts/postgresql-wal-format/*
